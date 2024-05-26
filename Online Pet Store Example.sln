@@ -1,0 +1,21 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Online Pet Store Example", "Online Pet Store Example.csproj", "{974FAED1-FEF1-40F7-890F-C42A1A698BED}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{94BCDB11-BD95-4C71-A474-2D500DA9351D}"
+	ProjectSection(SolutionItems) = preProject
+		docker-compose.yml = docker-compose.yml
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{974FAED1-FEF1-40F7-890F-C42A1A698BED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{974FAED1-FEF1-40F7-890F-C42A1A698BED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{974FAED1-FEF1-40F7-890F-C42A1A698BED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{974FAED1-FEF1-40F7-890F-C42A1A698BED}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

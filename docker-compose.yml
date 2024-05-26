@@ -1,0 +1,15 @@
+﻿services:
+  postgres:
+    image: postgres:latest
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: pass123
+      POSTGRES_DB: pet_store_example
+    ports:
+      - "5442:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+      - ./DatabaseSchema:/docker-entrypoint-initdb.d
+
+volumes:
+  postgres_data:
