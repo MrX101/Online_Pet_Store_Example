@@ -4,7 +4,7 @@ namespace Online_Pet_Store_Example;
 
 public class Program
 {
-    public static void Main(string[] args)
+    public static async Task Main(string[] args)
     {
         var builder = WebApplication.CreateBuilder(args);
 
@@ -30,6 +30,8 @@ public class Program
         app.MapRazorComponents<App>()
             .AddInteractiveServerRenderMode();
 
+        var seeds = new DbSeeds();
+        await seeds.AddSeedsIfDbEmpty();
         app.Run();
     }
 }
